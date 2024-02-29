@@ -70,7 +70,7 @@ describe("Route tests", () => {
 
         route.updatePoints(points);
 
-        expect(route.points).toHaveLength(2)
+        expect(route.points).toHaveLength(2);
         expect(route.points).toStrictEqual(points);
 
         const newPoints = [{lat: 15, long: 16}, {lat: 17, long: 18}];
