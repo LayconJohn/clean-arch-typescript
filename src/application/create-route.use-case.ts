@@ -1,14 +1,14 @@
-import { LatLong, Route } from "./route.entity";
-import { RouteReporitoryInterface } from "./route.repository";
+import { LatLong, Route } from "../domain/route.entity";
+import { RouteReporitoryInterface } from "../domain/route.repository";
 
 export class CreateRouteUseCase {
     constructor(private routeRepo: RouteReporitoryInterface){
 
     }
 
-    execute(input: CreateRouteInput): CreateRouteOutput{
+    async execute(input: CreateRouteInput): Promise<CreateRouteOutput>{
         const route = new Route(input);
-        this.routeRepo.insert(route);
+        await this.routeRepo.insert(route);
         return route.toJSON();
     }
 }

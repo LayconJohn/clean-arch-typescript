@@ -1,33 +1,13 @@
 TN:
-SF:src\route.entity.ts
-FN:13,<instance_members_initializer>
-FN:15,Route
-FN:24,updateTitle
-FN:28,updatePosition
-FN:33,updatePoints
-FN:37,get title
-FN:41,set title
-FN:45,get startPosition
-FN:49,set startPosition
-FN:53,get endPosition
-FN:57,set endPosition
-FN:61,get points
-FN:65,set points
-FNF:13
-FNH:13
-FNDA:5,<instance_members_initializer>
-FNDA:5,Route
-FNDA:1,updateTitle
-FNDA:1,updatePosition
-FNDA:2,updatePoints
-FNDA:1,get title
-FNDA:1,set title
-FNDA:1,get startPosition
-FNDA:1,set startPosition
-FNDA:1,get endPosition
-FNDA:1,set endPosition
-FNDA:5,get points
-FNDA:2,set points
+SF:src\application\create-route.use-case.ts
+FN:4,<instance_members_initializer>
+FN:5,CreateRouteUseCase
+FN:9,execute
+FNF:3
+FNH:3
+FNDA:1,<instance_members_initializer>
+FNDA:1,CreateRouteUseCase
+FNDA:1,execute
 DA:1,1
 DA:2,1
 DA:3,1
@@ -41,8 +21,76 @@ DA:10,1
 DA:11,1
 DA:12,1
 DA:13,1
-DA:14,5
-DA:15,5
+DA:14,1
+DA:15,1
+DA:16,1
+DA:17,1
+DA:18,1
+DA:19,1
+DA:20,1
+DA:21,1
+DA:22,1
+DA:23,1
+DA:24,1
+DA:25,1
+DA:26,1
+DA:27,1
+DA:28,1
+LF:28
+LH:28
+BRDA:4,0,0,1
+BRDA:5,1,0,1
+BRDA:9,2,0,1
+BRF:3
+BRH:3
+end_of_record
+TN:
+SF:src\domain\route.entity.ts
+FN:15,<instance_members_initializer>
+FN:18,Route
+FN:29,updateTitle
+FN:33,updatePosition
+FN:38,updatePoints
+FN:42,get title
+FN:46,set title
+FN:50,get startPosition
+FN:54,set startPosition
+FN:58,get endPosition
+FN:62,set endPosition
+FN:66,get points
+FN:70,set points
+FN:74,toJSON
+FNF:14
+FNH:14
+FNDA:5,<instance_members_initializer>
+FNDA:5,Route
+FNDA:1,updateTitle
+FNDA:1,updatePosition
+FNDA:2,updatePoints
+FNDA:1,get title
+FNDA:1,set title
+FNDA:1,get startPosition
+FNDA:1,set startPosition
+FNDA:1,get endPosition
+FNDA:1,set endPosition
+FNDA:5,get points
+FNDA:2,set points
+FNDA:1,toJSON
+DA:1,1
+DA:2,1
+DA:3,1
+DA:4,1
+DA:5,1
+DA:6,1
+DA:7,1
+DA:8,1
+DA:9,1
+DA:10,1
+DA:11,1
+DA:12,1
+DA:13,1
+DA:14,1
+DA:15,1
 DA:16,5
 DA:17,5
 DA:18,5
@@ -52,66 +100,110 @@ DA:21,5
 DA:22,5
 DA:23,5
 DA:24,5
-DA:25,1
-DA:26,1
+DA:25,5
+DA:26,5
 DA:27,5
 DA:28,5
-DA:29,1
+DA:29,5
 DA:30,1
 DA:31,1
 DA:32,5
 DA:33,5
-DA:34,2
-DA:35,2
-DA:36,5
+DA:34,1
+DA:35,1
+DA:36,1
 DA:37,5
-DA:38,1
-DA:39,1
-DA:40,5
+DA:38,5
+DA:39,2
+DA:40,2
 DA:41,5
-DA:42,1
+DA:42,5
 DA:43,1
-DA:44,5
+DA:44,1
 DA:45,5
-DA:46,1
+DA:46,5
 DA:47,1
-DA:48,5
+DA:48,1
 DA:49,5
-DA:50,1
+DA:50,5
 DA:51,1
-DA:52,5
+DA:52,1
 DA:53,5
-DA:54,1
+DA:54,5
 DA:55,1
-DA:56,5
+DA:56,1
 DA:57,5
-DA:58,1
+DA:58,5
 DA:59,1
-DA:60,5
+DA:60,1
 DA:61,5
 DA:62,5
-DA:63,5
-DA:64,5
+DA:63,1
+DA:64,1
 DA:65,5
-DA:66,2
-DA:67,2
+DA:66,5
+DA:67,5
 DA:68,5
-LF:68
-LH:68
-BRDA:13,0,0,5
-BRDA:15,1,0,5
-BRDA:20,2,0,4
-BRDA:24,3,0,1
-BRDA:28,4,0,1
-BRDA:33,5,0,2
-BRDA:37,6,0,1
-BRDA:41,7,0,1
-BRDA:45,8,0,1
-BRDA:49,9,0,1
-BRDA:53,10,0,1
-BRDA:57,11,0,1
-BRDA:61,12,0,5
-BRDA:65,13,0,2
-BRF:14
-BRH:14
+DA:69,5
+DA:70,5
+DA:71,2
+DA:72,2
+DA:73,5
+DA:74,5
+DA:75,1
+DA:76,1
+DA:77,1
+DA:78,1
+DA:79,1
+DA:80,5
+LF:80
+LH:80
+BRDA:15,0,0,5
+BRDA:18,1,0,5
+BRDA:25,2,0,4
+BRDA:29,3,0,1
+BRDA:33,4,0,1
+BRDA:38,5,0,2
+BRDA:42,6,0,1
+BRDA:46,7,0,1
+BRDA:50,8,0,1
+BRDA:54,9,0,1
+BRDA:58,10,0,1
+BRDA:62,11,0,1
+BRDA:66,12,0,5
+BRDA:70,13,0,2
+BRDA:74,14,0,1
+BRF:15
+BRH:15
+end_of_record
+TN:
+SF:src\infra\db\route-in-memory.repository.ts
+FN:4,<instance_members_initializer>
+FN:6,insert
+FN:10,findAll
+FNF:3
+FNH:2
+FNDA:1,<instance_members_initializer>
+FNDA:1,insert
+FNDA:0,findAll
+DA:1,1
+DA:2,1
+DA:3,1
+DA:4,1
+DA:5,1
+DA:6,1
+DA:7,1
+DA:8,1
+DA:9,1
+DA:10,1
+DA:11,0
+DA:12,0
+DA:13,1
+DA:14,1
+LF:14
+LH:12
+BRDA:4,0,0,1
+BRDA:6,1,0,1
+BRF:2
+BRH:2
 end_of_record
